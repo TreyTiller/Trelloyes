@@ -3,12 +3,20 @@ import List from './List';
 import './App.css';
 
 class App extends Component {
-  static defaultProps = {
+  state= {
     store: {
       lists:[],
       allCards: {},
     }
-  };
+  }
+
+  handleDeleteCard = () => {
+
+  }
+
+  handleAddRandomCard = () => {
+    
+  }
 
   render() {
     const{store} = this.props
